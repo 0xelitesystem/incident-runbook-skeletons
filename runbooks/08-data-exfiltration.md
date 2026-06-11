@@ -6,7 +6,7 @@
 
 1. Confirm exfil is occurring or has occurred. Review egress logs (NetFlow, VPC Flow Logs, proxy logs) for the suspect period.
 2. If active: block the egress destination at the firewall and isolate the source host.
-3. Preserve all relevant logs immediately — many have short retention by default.
+3. Preserve all relevant logs immediately, many have short retention by default.
 4. Engage legal and privacy teams. Regulatory notification clocks may already be running.
 
 ## Investigation
@@ -39,7 +39,7 @@
 - Restore normal operations only after attacker is fully evicted.
 - Implement enhanced monitoring on the affected data store for 60-90 days.
 
-## Post-incident — regulatory and notification
+## Post-incident, regulatory and notification
 
 - Determine notification obligations based on data type and jurisdiction:
   - PII: GDPR (72h to supervisory authority), state breach laws (varies, often 30-60 days), sector-specific (HIPAA, GLBA).
@@ -47,14 +47,14 @@
   - Health data: HHS / state health authorities.
   - Contractual: customer notification clauses, cyber insurance carrier.
 - Prepare communications: regulator filings, customer notices, internal stakeholder briefings, public statement if required.
-- Engage outside counsel and a forensics firm — privilege protections matter for litigation that often follows.
+- Engage outside counsel and a forensics firm, privilege protections matter for litigation that often follows.
 
-## Post-incident — technical
+## Post-incident, technical
 
 - Implement egress filtering: default-deny outbound, allowlist only required destinations.
 - Add DLP for sensitive data classes.
 - Encrypt data at rest with keys the attacker couldn't have accessed.
-- Tokenize or pseudonymize where possible — exfil of tokens is less harmful than exfil of plaintext.
+- Tokenize or pseudonymize where possible, exfil of tokens is less harmful than exfil of plaintext.
 
 ## Reference data to capture
 

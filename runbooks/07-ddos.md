@@ -5,7 +5,7 @@
 ## Immediate (first 15 minutes)
 
 1. Confirm it's a DDoS (not a viral traffic spike or a misconfigured client retry storm). Look at source IP diversity, geographic spread, request patterns.
-2. Identify the layer: L3/L4 (volumetric — bandwidth/PPS exhaustion) vs L7 (application — request floods, slowloris, expensive endpoint hammering).
+2. Identify the layer: L3/L4 (volumetric, bandwidth/PPS exhaustion) vs L7 (application, request floods, slowloris, expensive endpoint hammering).
 3. Engage your DDoS protection provider (AWS Shield Advanced, Cloudflare, Akamai). If you don't have one: contact your ISP/CDN to enable emergency mitigation.
 4. Switch DNS to bring CDN/scrubbing inline if not already.
 
@@ -14,7 +14,7 @@
 - For L3/L4: capture flow logs, identify attack vectors (UDP amplification, SYN flood, ICMP).
 - For L7: identify which endpoints are being targeted. Often it's a known-expensive one (search, login, password reset, /api/v1/*).
 - Check for collateral: are legitimate users blocked by your mitigation? What's the false positive rate of any rate limits?
-- Determine if this is a smokescreen — major DDoS sometimes covers other attacks (data theft, account takeover). Increase monitoring on sensitive systems.
+- Determine if this is a smokescreen, major DDoS sometimes covers other attacks (data theft, account takeover). Increase monitoring on sensitive systems.
 
 ## Containment
 
@@ -25,13 +25,13 @@
 
 ## Eradication
 
-- DDoS doesn't have "eradication" in the malware sense — you wait it out while mitigating. Most attacks last hours to days.
+- DDoS doesn't have "eradication" in the malware sense, you wait it out while mitigating. Most attacks last hours to days.
 - If a specific botnet is identified, coordinate with law enforcement / CERT for takedown.
 
 ## Recovery
 
 - Gradually relax mitigations as attack subsides.
-- Monitor for "second wave" — attackers often pause and resume to test your defenses.
+- Monitor for "second wave", attackers often pause and resume to test your defenses.
 - Restore any features disabled during the attack.
 
 ## Post-incident

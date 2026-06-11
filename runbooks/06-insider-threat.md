@@ -12,13 +12,13 @@
 ## Investigation
 
 - Build a timeline of unusual activity: bulk downloads to USB or personal cloud (Dropbox, Google Drive personal), printing volume spikes, after-hours access, queries on data outside their job function.
-- Compare to peer baseline — what does normal access look like for this role?
+- Compare to peer baseline, what does normal access look like for this role?
 - Review communications (with legal approval) for indicators of intent: job-search activity, contact with competitors, complaints about the company.
 - For developers: review git commits, especially squashed/force-pushed history, deletion of logs, addition of backdoors or hardcoded credentials.
 
 ## Containment
 
-- Coordinate with HR on timing of access removal — usually concurrent with notification meeting.
+- Coordinate with HR on timing of access removal, usually concurrent with notification meeting.
 - Disable accounts: SSO, VPN, email, cloud consoles, source control, badge access.
 - Recover company devices.
 - Revoke any credentials or API keys the individual could have created.

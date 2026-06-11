@@ -4,7 +4,7 @@
 
 ## Immediate (first 15 minutes)
 
-1. Confirm the breach with the vendor directly through a verified channel — not via email link in the notification (which itself could be a phishing pretext).
+1. Confirm the breach with the vendor directly through a verified channel, not via email link in the notification (which itself could be a phishing pretext).
 2. Determine what data of yours they held: scope, sensitivity, volume.
 3. Determine if your authentication to their service is at risk (SSO tokens, API keys, shared secrets).
 4. Identify your contractual rights: SLA breach, indemnification, audit rights.
@@ -13,7 +13,7 @@
 
 - Read the vendor's incident notice carefully. What do they confirm vs what's still under investigation? Vendor disclosures are often incomplete on day one.
 - What technical details do they share? IOCs, attacker techniques, dwell time, data classes accessed.
-- Did the breach involve your specific tenant / dataset? Many SaaS breaches are scoped to specific customers — confirm yours is or isn't affected.
+- Did the breach involve your specific tenant / dataset? Many SaaS breaches are scoped to specific customers, confirm yours is or isn't affected.
 - For credential-related breaches (password manager, identity provider): assume credentials stored or transited through the vendor are exposed.
 
 ## Containment
@@ -52,6 +52,6 @@
 ## Considerations for future
 
 - Encrypt data at rest with customer-managed keys where the vendor supports it (BYOK / HYOK).
-- Minimize data shared with vendors — send only what's necessary, redact PII when possible.
+- Minimize data shared with vendors, send only what's necessary, redact PII when possible.
 - Negotiate breach notification timelines into contracts (often 24-72h).
 - Run periodic vendor security reviews proportionate to data sensitivity.

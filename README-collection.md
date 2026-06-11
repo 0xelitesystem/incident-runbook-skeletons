@@ -1,6 +1,6 @@
 # About this collection
 
-Ten runbooks covering the most common incident types for a modern cloud-and-SaaS environment. Each follows the same skeleton — Trigger, Immediate, Investigation, Containment, Eradication, Recovery, Post-incident, Reference data to capture — so responders can move between them without retraining.
+Ten runbooks covering the most common incident types for a modern cloud-and-SaaS environment. Each follows the same skeleton, Trigger, Immediate, Investigation, Containment, Eradication, Recovery, Post-incident, Reference data to capture, so responders can move between them without retraining.
 
 ## Index
 

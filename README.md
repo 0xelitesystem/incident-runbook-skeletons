@@ -6,14 +6,14 @@ Ten runbooks for common security incidents. Each one follows the same skeleton s
 
 Every runbook has these sections, in this order:
 
-1. **Trigger** — the alert, ticket, or report that brings you to this page
-2. **Immediate** — what to do in the first 15 minutes
-3. **Investigation** — queries, log sources, indicators of scope
-4. **Containment** — stopping the bleeding without destroying evidence
-5. **Eradication** — removing attacker access and persistence
-6. **Recovery** — bringing services back, restoring data
-7. **Post-incident** — write-up, lessons, control changes
-8. **Reference data** — the specific commands, IAM actions, log queries used in the steps above
+1. **Trigger**, the alert, ticket, or report that brings you to this page
+2. **Immediate**, what to do in the first 15 minutes
+3. **Investigation**, queries, log sources, indicators of scope
+4. **Containment**, stopping the bleeding without destroying evidence
+5. **Eradication**, removing attacker access and persistence
+6. **Recovery**, bringing services back, restoring data
+7. **Post-incident**, write-up, lessons, control changes
+8. **Reference data**, the specific commands, IAM actions, log queries used in the steps above
 
 ## Contents
 

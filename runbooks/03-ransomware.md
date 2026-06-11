@@ -25,13 +25,13 @@
 
 ## Eradication
 
-- Rebuild affected hosts from known-good images. Do not "clean" — reimage.
+- Rebuild affected hosts from known-good images. Do not "clean", reimage.
 - Patch the initial access vector before reconnecting any rebuilt host.
 - Hunt for persistence: scheduled tasks, run keys, WMI subscriptions, malicious SSH keys, new local admin accounts.
 
 ## Recovery
 
-- Restore from backups verified to predate the intrusion (not just the encryption event — dwell time is often weeks).
+- Restore from backups verified to predate the intrusion (not just the encryption event, dwell time is often weeks).
 - Bring systems back in tiers: identity → core infra → business systems → endpoints.
 - Monitor restored systems for reinfection for at least 30 days.
 

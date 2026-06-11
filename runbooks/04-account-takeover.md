@@ -5,8 +5,8 @@
 ## Immediate (first 15 minutes)
 
 1. Force sign-out of all active sessions for the account (in Okta/Entra ID/Google Workspace: revoke sessions and OAuth tokens).
-2. Reset password and require new MFA enrollment from a verified channel (in-person or via known phone number — not email if email may also be compromised).
-3. If admin account: temporarily downgrade privileges until investigation completes. Do not delete — you need the audit trail.
+2. Reset password and require new MFA enrollment from a verified channel (in-person or via known phone number, not email if email may also be compromised).
+3. If admin account: temporarily downgrade privileges until investigation completes. Do not delete, you need the audit trail.
 4. Notify the user out-of-band and confirm their identity.
 
 ## Investigation
