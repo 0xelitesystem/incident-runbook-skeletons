@@ -32,7 +32,7 @@
 ## Recovery
 
 - Restore from backups verified to predate the intrusion (not just the encryption event, dwell time is often weeks).
-- Bring systems back in tiers: identity → core infra → business systems → endpoints.
+- Bring systems back in tiers: identity -> core infra -> business systems -> endpoints.
 - Monitor restored systems for reinfection for at least 30 days.
 
 ## Post-incident

@@ -12,7 +12,7 @@
 ## Investigation
 
 - Identify what data was taken. Without knowing this, you cannot accurately notify or remediate.
-- Reconstruct the path: initial access → privilege escalation → discovery → collection → exfil → cleanup.
+- Reconstruct the path: initial access -> privilege escalation -> discovery -> collection -> exfil -> cleanup.
 - Common exfil channels in priority order to check:
   - DNS tunneling (queries with high entropy subdomains)
   - HTTPS to attacker infrastructure or legitimate file-share services
