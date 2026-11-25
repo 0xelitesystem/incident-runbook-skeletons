@@ -1,4 +1,4 @@
-# incident-response-runbooks
+# incident-runbook-skeletons
 
 Ten runbooks for common security incidents. Each one follows the same skeleton so on-call responders aren't reading a different document structure for every page.
 
