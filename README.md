@@ -45,11 +45,11 @@ If you run into a runbook that's wrong, misordered, or missing a critical step, 
 Part of a 10-repo security audit set.
 
 Browser-based audit tools:
-- [iam-policy-analyzer](https://github.com/0xelitesystem/iam-policy-analyzer)
+- [iam-policy-risk-flagger](https://github.com/0xelitesystem/iam-policy-risk-flagger)
 - [hcl-aws-misconfig-linter](https://github.com/0xelitesystem/hcl-aws-misconfig-linter)
 - [kubernetes-manifest-security-scanner](https://github.com/0xelitesystem/kubernetes-manifest-security-scanner)
 - [session-cookie-auditor](https://github.com/0xelitesystem/session-cookie-auditor)
-- [regex-redos-checker](https://github.com/0xelitesystem/regex-redos-checker)
+- [redos-evil-input-finder](https://github.com/0xelitesystem/redos-evil-input-finder)
 
 Reference collections:
 - [ai-llm-security-audit](https://github.com/0xelitesystem/ai-llm-security-audit)
